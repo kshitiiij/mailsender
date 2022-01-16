@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Mail Sender</title>
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+    
+</head>
+<body>
+    <h1>Mail Sender</h1>
+    
+    <h4>Logged in as: <%= user %></h4>
+
+    <form method="post" action="send">
+        <label>From:</label><br>
+        <input type="email" name="from" value=<%= email %>></input><br>
+        <label>To:</label><br>
+        <input type="email" name="to"><br>
+        <label>Subject:</label><br>
+        <input type="text" name="subject"><br>
+        <label>Message:</label><br>
+        <!-- <input type="text" name="message"><br> -->
+        <textarea name="message" ></textarea><br>
+        <!-- <input type="submit" value="Send">     -->
+        <br><button type="submit">Send</button>
+    </form>
+
+    
+</body>
+</html>

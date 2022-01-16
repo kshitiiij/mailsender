@@ -1,0 +1,104 @@
+body {
+  background-color: rgb(46, 63, 68);
+}
+
+h1  {
+color: rgba(196, 214, 95, 0.979);
+/* font-size: 1em; */
+margin-bottom: .3em;
+text-align: center;
+text-decoration: underline;
+}
+
+h4  {
+  color: rgba(196, 214, 95, 0.979);
+  /* font-size: 1em; */
+  margin-bottom: .3em;
+  text-align: right;
+  /* text-decoration: underline; */
+  }
+
+label {
+  color: rgba(196, 214, 95, 0.979);
+}
+
+input[type=text],input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: rgb(46, 63, 68);
+  color: rgba(196, 214, 95, 0.979);
+  outline: none;
+}
+
+input[type=submit] {
+  background-color: rgb(46, 63, 68);
+  color: rgba(196, 214, 95, 0.979);
+  text-align: center;
+}
+
+/* input[name=message] {
+  height:25%;
+} */
+
+textarea {
+  width: 100%;
+  background-color: rgb(46, 63, 68);
+  color: rgba(196, 214, 95, 0.979);
+  height: 26%;
+  border:2px solid rgb(187, 189, 74);
+  border-radius: 4px;
+  outline: none;
+}
+
+input {
+  border:2px solid rgb(187, 189, 74);
+  border-radius: 4px;
+}
+
+button {
+  background-color: rgb(46, 63, 68);
+  color: rgba(196, 214, 95, 0.979);
+  border:2px solid rgb(187, 189, 74);
+  border-radius: 8px;
+  font-size: 20px;
+  padding: 4px 7px;
+  width: 100px;
+  /* height: 200px; */
+  text-align: center;
+  /* display:ruby; */
+
+
+}
+
+button:hover {
+  background-color: rgb(34, 49, 54);
+  color: rgba(196, 214, 95, 0.979);
+}
+
+
+/* table {
+margin: .3em;
+width: 290px;
+}
+
+th {
+padding: .2em;
+}
+
+td {
+background-color: #ffc;
+border: 1px solid #900;
+padding-left: .5em;
+padding-right: .5em;
+} */
+
+/* #trHeader {
+color: #900;
+text-decoration: underline;
+}
+
+.centerCell {
+text-align: center;
+} */
