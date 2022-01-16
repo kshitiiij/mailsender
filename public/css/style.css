@@ -38,9 +38,7 @@ input[type=submit] {
   text-align: center;
 }
 
-/* input[name=message] {
-  height:25%;
-} */
+
 
 textarea {
   width: 100%;
@@ -77,28 +75,3 @@ button:hover {
   color: rgba(196, 214, 95, 0.979);
 }
 
-
-/* table {
-margin: .3em;
-width: 290px;
-}
-
-th {
-padding: .2em;
-}
-
-td {
-background-color: #ffc;
-border: 1px solid #900;
-padding-left: .5em;
-padding-right: .5em;
-} */
-
-/* #trHeader {
-color: #900;
-text-decoration: underline;
-}
-
-.centerCell {
-text-align: center;
-} */
